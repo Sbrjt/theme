@@ -7,8 +7,8 @@ export default function RootLayout({ children }) {
 			<body>
 				<ThemeProvider
 					forcedTheme='dark'
-					attribute='class'
 					defaultTheme='dark'
+					attribute='class'
 					enableSystem={false}
 				>
 					{children}
